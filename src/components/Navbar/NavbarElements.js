@@ -15,6 +15,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 10;
+    
 
     @media screen and (max-width: 96px) {
         transition: 0.8s all ease; 
@@ -29,6 +30,7 @@ export const NavbarContainer = styled.div`
     width: 100%;
     padding: 0 24px;
     max-width: 1100px;
+    
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -62,7 +64,7 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
     display: flex; 
     align-items: center;
-    list-style;
+    list-style: none;
     text-align: center;
     margin-right: -22px;
 
