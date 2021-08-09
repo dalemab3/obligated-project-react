@@ -22,7 +22,7 @@ const HeroSection = () => {
                     Aliquam in lacinia libero, eu consectetur ipsum. Ut finibus nisi vel tempus auctor. Vestibulum semper risus vitae sem malesuada, ac mollis ligula auctor.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to="shop" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true">
                         Get Started {hover ? <ArrowForward /> : <ArrowRight />}
